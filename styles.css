@@ -2,6 +2,7 @@
 /* CSS Document */
 /* General Styles */
 body {
+	
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -18,14 +19,15 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #FFB6C1; /* Light pink for strawberry vibes */
+    background-color: rgba(255,193,204,1.00);
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     padding: 20px 0;
     color: white;
 }
 
 header h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 8rem;
 }
 
 nav ul {
@@ -36,13 +38,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
-    font-size: 1.1rem;
+    color: palevioletred;
+    font-size: 2rem;
 }
 
 nav ul li a:hover {
@@ -53,7 +55,7 @@ nav ul li a:hover {
 .hero {
     background: url('strawberry-hero.jpg') no-repeat center center/cover;
     height: 400px;
-    color: white;
+    color: rgba(255,193,204,1.00);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -62,7 +64,8 @@ nav ul li a:hover {
 }
 
 .hero h2 {
-    font-size: 2.5rem;
+	
+    font-size: 5rem;
     margin-bottom: 10px;
 }
 
@@ -72,8 +75,9 @@ nav ul li a:hover {
 }
 
 .hero .btn {
+	background-color: rgba(255,193,204,1.00);
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     padding: 10px 20px;
-    background-color: #FF69B4; /* Strawberry pink */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -83,55 +87,18 @@ nav ul li a:hover {
     background-color: #FF1493;
 }
 
-/* Menu Section */
-.menu {
-    padding: 40px 0;
-    background-color: #fff;
-}
-
-.menu h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.menu .menu-items {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.menu-item {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #f1f1f1;
-    width: 200px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.menu-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.menu-item p {
-    font-size: 1rem;
-    margin-bottom: 10px;
-}
-
-.menu-item span {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #FF69B4;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* About Section */
 .about {
     padding: 40px 0;
-    background-color: #fff;
+    background-color: rgba(255,193,204,1.00);
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .about h2 {
@@ -157,3 +124,4 @@ nav ul li a:hover {
     margin: 0 auto;
     display: flex;
 
+}
